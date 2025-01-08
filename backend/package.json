@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "cross-env NODE_ENV=development nodemon src/app.ts",
-    "start": "npm run build && cross-env NODE_ENV=production ts-node dist/app.js"
+    "start": "npm run build && cross-env NODE_ENV=production node dist/app.js"
   },
   "keywords": [],
   "author": "",
